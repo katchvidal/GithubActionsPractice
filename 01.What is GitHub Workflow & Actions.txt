@@ -1,0 +1,18 @@
+-> Workflows
+
+Worfkflows are custon automated proccess that you can set up in your repository to build, test, package, 
+release or deploy any code proect o Github.
+* Push -> Subidas
+* Pull Request -> Subidas
+* Issues -> Problemas
+* Schedule
+* External Event
+The workflow run in a virtual machine in a github server ( build a job ) -> can contain a a Linux, MacOs,
+Windows,Docker Container
+Job 1 ( build a android app ) -> Job 2 ( Build os app ) -> Job 3 ( Runing the test )
+-> Runner is the responsably to run the jobs
+-> Mainteled by Github
+-> They have the more common tools ( curl, git, npm, yarn, pip)
+
+
+
