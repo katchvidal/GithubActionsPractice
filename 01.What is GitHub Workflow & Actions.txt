@@ -17,4 +17,14 @@ Job 1 ( build a android app ) -> Job 2 ( Build os app ) -> Job 3 ( Runing the te
 
 -> Some Settings
 * Email Notifications:
-	* settings
+	* settings -> Actions -> Notificacion -> Send Email ( When have an Error )
+
+---- Clone Repository into a virtual machine Github Actions -------
+*	Actions CheckOut
+
+---------------------------------------------------------------------
+
+-> Pull request [ create other branch ]
+	* git checkout -b develop
+  pull_request:
+    types: [ closed, assigned, opened, reopened ]
