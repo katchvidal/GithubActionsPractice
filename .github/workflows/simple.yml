@@ -1,9 +1,9 @@
-name: Shell Commands
+name: Shell Commands Katch Workflow
 
 on: [ push ]
-
+# Jobs 
 jobs:
-  run-shell-command:
+  run-shell-commandLinux:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
@@ -18,3 +18,12 @@ jobs:
           print
           (platform.processor())
         shell: python
+
+  run-shell-commandWindows:
+    runs-on: windows-latest
+    steps:
+      - name: Directory PowerShell
+        run: Get-Location
+      - name: Directory Bash
+        run: pwd 
+        shell: bash
