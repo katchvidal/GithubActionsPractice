@@ -15,4 +15,6 @@ Job 1 ( build a android app ) -> Job 2 ( Build os app ) -> Job 3 ( Runing the te
 -> They have the more common tools ( curl, git, npm, yarn, pip)
 
 
-
+-> Some Settings
+* Email Notifications:
+	* settings
