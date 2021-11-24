@@ -12,6 +12,10 @@ jobs:
           ls
       - name: Checkout
         uses: actions/checkout@v1
+      - name: List Files in Linux Ubuntu After Checkout
+        run : |
+          pwd
+          ls
       - name: simple JS Action
         id: greet
         uses: actions/hello-world-javascript-action@v1
