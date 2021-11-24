@@ -1,9 +1,10 @@
 name: Actions Workflow
 
 on:
-  schedule:
-    - cron: "0/5 * * * *" # https://crontab.guru/every-1-hour
-  #push:
+  #repository_dispatch:
+  #schedule:
+    #- cron: "0/5 * * * *" # https://crontab.guru/every-1-hour
+  push:
   pull_request:
     types: [ closed, assigned, opened, reopened ]
 
