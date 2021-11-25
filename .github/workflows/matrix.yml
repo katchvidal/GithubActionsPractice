@@ -15,6 +15,4 @@ jobs:
         with:
           node-version: ${{ matrix.node_version }}
       - name: Log node Version
-        run: |
-          node -v 
-          npm - v
+        run: node -v 
