@@ -37,6 +37,13 @@ Cuenta de Github ( Repository/space) -> Settings -> Secrets -> Add Secret
 -> Then eg. -> WF_ENV: ${{ secrets.WF_ENV }}
 
 
+----------------------------------------------------------------------------
+
+Usign Github Token as an input ->
+
+
+
+
 
 
 
