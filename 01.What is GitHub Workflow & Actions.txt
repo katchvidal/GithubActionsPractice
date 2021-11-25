@@ -30,3 +30,18 @@ Job 1 ( build a android app ) -> Job 2 ( Build os app ) -> Job 3 ( Runing the te
     types: [ closed, assigned, opened, reopened ]
 	* git checkout main
 	* git merge develop
+--------------------------------------------------------------------------
+
+Encrypted Variable de Entorno
+Cuenta de Github ( Repository/space) -> Settings -> Secrets -> Add Secret
+-> Then eg. -> WF_ENV: ${{ secrets.WF_ENV }}
+
+
+
+
+
+
+
+
+
+
