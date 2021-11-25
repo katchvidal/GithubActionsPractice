@@ -3,6 +3,10 @@ on: push
 
 jobs:
   node-version:
+    strategy:
+      matrix:
+        node_version: [ 6, 8, 10 ]
+      max-parallel: 2
     runs-on: ubuntu-latest
     steps:
       - name: Log node Version
@@ -11,4 +15,6 @@ jobs:
         with:
           node-version: 6
       - name: Log node Version
-        run: node -v 
+        run: |
+          node -v 
+          npm - v
